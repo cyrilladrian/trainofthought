@@ -1,1 +1,17 @@
-<h1>The Train of Thought</h1>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Train of Thought</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'landing_style.css' %}" />
+    </head>
+    <body>
+        <div class="area-1">Area 1 </div>
+        <div class="area-2">Area 2</div>
+        <div class="area-3">Area 3</div>
+    </body>
+</html>
+{% endblock content %}

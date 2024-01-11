@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.area-1{
+    height: 100vh;
+    width: 100vw;
+    background: yellow;
+    overflow: scroll;
+  }
+
+.area-2{
+    height: 100vh;
+    width: 100vw;
+    background: blue;
+    overflow: scroll;
+  }
+
+.area-3{
+    height: 100vh;
+    width: 100vw;
+    background: green;
+    overflow: scroll;
+  }
